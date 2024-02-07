@@ -12,7 +12,7 @@ function State() {
     //setResult is function
     const [result, setResult] = React.useState('No')
 
-
+    
     console.log(result)
     //Received an ARRAY with two Values
     //['Hello World', func()]
@@ -21,7 +21,7 @@ function State() {
 
     function changeAnswer() {
         //anytime you want a new value, you'll call setNAME() with new value inside ('VALUE')
-        setResult('Yes')
+        setResult('Stop clicking me')
     }
 
 

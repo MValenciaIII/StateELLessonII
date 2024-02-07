@@ -1,14 +1,19 @@
 import EventListeners from './components/EventListeners'
 import MappingUpdate from './components/MappingUpdate'
 import State from './components/State'
-
+import CounterPractice from './components/CounterPractice'
+import TernaryPractice from './components/TernaryPractice'
+import StateTernary from './components/StateTernary'
 function App() {
 
     return (
         <div className="container justify-content-center">
             {/* <EventListeners /> */}
             {/* <MappingUpdate /> */}
-            <State />
+            {/* <State /> */}
+            {/* <CounterPractice /> */}
+            {/* <TernaryPractice /> */}
+            <StateTernary />
         </div>
     )
 }
