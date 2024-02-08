@@ -4,6 +4,9 @@ import State from './components/State'
 import CounterPractice from './components/CounterPractice'
 import TernaryPractice from './components/TernaryPractice'
 import StateTernary from './components/StateTernary'
+import ComplexState from './components/ComplexState'
+import './style.css'
+
 function App() {
 
     return (
@@ -13,7 +16,8 @@ function App() {
             {/* <State /> */}
             {/* <CounterPractice /> */}
             {/* <TernaryPractice /> */}
-            <StateTernary />
+            {/* <StateTernary /> */}
+            <ComplexState />
         </div>
     )
 }

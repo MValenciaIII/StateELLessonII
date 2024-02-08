@@ -3,7 +3,7 @@ import React from 'react'
 function TernaryPractice() {
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
 
-    const murderIf = 'false';
+    const murderIf = false;
     const murderName = "Jim Crawford"
 
     //First way of Ternary Operator
