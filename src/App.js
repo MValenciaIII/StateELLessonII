@@ -5,6 +5,8 @@ import CounterPractice from './components/CounterPractice'
 import TernaryPractice from './components/TernaryPractice'
 import StateTernary from './components/StateTernary'
 import ComplexState from './components/ComplexState'
+import ConditionalRendering from './components/ConditionalRendering'
+import Forms from './components/Forms'
 import './style.css'
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
             {/* <CounterPractice /> */}
             {/* <TernaryPractice /> */}
             {/* <StateTernary /> */}
-            <ComplexState />
+            {/* <ComplexState /> */}
+            {/* <ConditionalRendering /> */}
+            <Forms />
         </div>
     )
 }
