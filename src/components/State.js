@@ -25,9 +25,41 @@ function State() {
     }
 
 
+    //WHEN TO USE "[]"
+    /*
+        ARRAYS - its typically used to hold a LIST of items
+        //ie. ['a','b','c']
+        Destructuring - When you have an array, You're able to give variable names to each index.
+        //ie. const [result, setResult] = React.useState('No') 
+        //useState = ['No', Func()]
+        Computed Properties - (Advance) A dynamic way to target a html element attribute name. 
+        //ie. [name] : type === 'checkbox' ? checked : value
 
 
+    */
 
+        
+    //WHEN TO USE "{}"
+    /*
+        OBJECTS - It's a way to hold detailed information.
+        //ie. {
+            Firstname: ""
+            Lastname: ""
+            phone: 691-911-8459
+        }
+        REACT WRITING JS - In order to write javascript in functional component HTML. Wrapped "{}" in the DOM.
+        //ie.<h3 onClick={changeAnswer}>Is State important?</h3>
+        //ie.{isShown && <p>Hello I'm rendering</p>}
+        DESTRUCTURING - Break down each Object attribute to a variable. 
+        //ie. const {name, value, type, checked} = event.target
+        
+    */
+
+        //WHEN TO USE "()"
+    /*
+        
+        
+    */
 
     return(
         <div className="row">

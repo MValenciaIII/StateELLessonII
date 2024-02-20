@@ -7,7 +7,9 @@ import StateTernary from './components/StateTernary'
 import ComplexState from './components/ComplexState'
 import ConditionalRendering from './components/ConditionalRendering'
 import Forms from './components/Forms'
+import Props from './components/Props'
 import './style.css'
+import PropsReceive from './components/PropsReceiver'
 
 function App() {
 
@@ -21,7 +23,8 @@ function App() {
             {/* <StateTernary /> */}
             {/* <ComplexState /> */}
             {/* <ConditionalRendering /> */}
-            <Forms />
+            {/* <Forms /> */}
+            <Props />
         </div>
     )
 }

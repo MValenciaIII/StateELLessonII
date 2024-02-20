@@ -86,7 +86,9 @@ function ComplexArray() {
         //when setting new State Value
         //if we depend on the old version of our State(Value/array) we typically think about callback function 
         //... = spread operator !!What is does = Get entire current array.
-        setThingsArray(prevThingsArray => [...prevThingsArray, `Thing ${prevThingsArray.length + 1}`])
+        setThingsArray(prevThingsArray => 
+            [...prevThingsArray, `Thing ${prevThingsArray.length + 1}`]
+            )
 
 
         //SETTING NEW VALUE OPTION
