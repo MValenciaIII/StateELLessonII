@@ -10,6 +10,7 @@ import Forms from './components/Forms'
 import Props from './components/Props'
 import './style.css'
 import PropsReceive from './components/PropsReceiver'
+import UseEffect from './components/UseEffect'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
             {/* <ComplexState /> */}
             {/* <ConditionalRendering /> */}
             {/* <Forms /> */}
-            <Props />
+            {/* <Props /> */}
+            <UseEffect />
         </div>
     )
 }
